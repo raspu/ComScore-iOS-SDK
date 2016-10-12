@@ -1,4 +1,4 @@
-# ComScore Analytics SDK for iOS
+# comScore Analytics SDK for iOS
 
 [![Version](https://img.shields.io/cocoapods/v/ComScore-iOS.svg?style=flat)](http://cocoapods.org/pods/ComScore-iOS)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -18,12 +18,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Installation
 ============
 
-The ComScore Analytics SDK can be installed in several ways.
+The comScore Analytics SDK can be installed in several ways.
 
 CocoaPods
 ---------
 
-ComScore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS devices only. 
+comScore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS devices only. 
 
 To install it, simply add the following line to your Podfile:
 
@@ -34,7 +34,7 @@ pod "ComScore-iOS"
 Carthage
 --------
 
-For projects targeting iOS 8 and above, the ComScore Analytics SDK can be installed using [Carthage](https://github.com/Carthage/Carthage) by simply adding the associated dependency to your `Cartfile`:
+For projects targeting iOS 8 and above, the comScore Analytics SDK can be installed using [Carthage](https://github.com/Carthage/Carthage) by simply adding the associated dependency to your `Cartfile`:
 
 ```
 github "comScore/ComScore-iOS-SDK"
