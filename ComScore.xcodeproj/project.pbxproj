@@ -7,30 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E672EA141D62E8D700CFB080 /* libcomScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA131D62E8D700CFB080 /* libcomScore.a */; };
-		E672EA2D1D62E8EF00CFB080 /* CSApplicationState.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA161D62E8EF00CFB080 /* CSApplicationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA2E1D62E8EF00CFB080 /* CSCacheFlusher.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA171D62E8EF00CFB080 /* CSCacheFlusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA2F1D62E8EF00CFB080 /* CSCensus.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA181D62E8EF00CFB080 /* CSCensus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA301D62E8EF00CFB080 /* CSComScore.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA191D62E8EF00CFB080 /* CSComScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA311D62E8EF00CFB080 /* CSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1A1D62E8EF00CFB080 /* CSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA321D62E8EF00CFB080 /* CSEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1B1D62E8EF00CFB080 /* CSEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA331D62E8EF00CFB080 /* CSKeepAlive.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1C1D62E8EF00CFB080 /* CSKeepAlive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA341D62E8EF00CFB080 /* CSMeasurementDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1D1D62E8EF00CFB080 /* CSMeasurementDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA351D62E8EF00CFB080 /* CSNotificationsObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1E1D62E8EF00CFB080 /* CSNotificationsObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA361D62E8EF00CFB080 /* CSOfflineCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA1F1D62E8EF00CFB080 /* CSOfflineCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA371D62E8EF00CFB080 /* CSSessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA201D62E8EF00CFB080 /* CSSessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA381D62E8EF00CFB080 /* CSStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA211D62E8EF00CFB080 /* CSStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA391D62E8EF00CFB080 /* CSStreamingTag.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA221D62E8EF00CFB080 /* CSStreamingTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3A1D62E8EF00CFB080 /* CSStreamSense.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA231D62E8EF00CFB080 /* CSStreamSense.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3B1D62E8EF00CFB080 /* CSStreamSenseClip.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA241D62E8EF00CFB080 /* CSStreamSenseClip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3C1D62E8EF00CFB080 /* CSStreamSenseDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA251D62E8EF00CFB080 /* CSStreamSenseDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3D1D62E8EF00CFB080 /* CSStreamSenseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA261D62E8EF00CFB080 /* CSStreamSenseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3E1D62E8EF00CFB080 /* CSStreamSensePlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA271D62E8EF00CFB080 /* CSStreamSensePlaylist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA3F1D62E8EF00CFB080 /* CSStreamSensePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA281D62E8EF00CFB080 /* CSStreamSensePlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA401D62E8EF00CFB080 /* CSStreamSensePluginProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA291D62E8EF00CFB080 /* CSStreamSensePluginProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA411D62E8EF00CFB080 /* CSStreamSenseState.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA2A1D62E8EF00CFB080 /* CSStreamSenseState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA421D62E8EF00CFB080 /* CSTaskExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA2B1D62E8EF00CFB080 /* CSTaskExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E672EA431D62E8EF00CFB080 /* CSTransmissionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA2C1D62E8EF00CFB080 /* CSTransmissionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B3D1DAE6EDF00C3277F /* SCORAdType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B3E1DAE6EDF00C3277F /* SCORAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B3F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B401DAE6EDF00C3277F /* SCORApplicationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B411DAE6EDF00C3277F /* SCORApplicationState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B421DAE6EDF00C3277F /* SCORClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B431DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B441DAE6EDF00C3277F /* SCORConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B451DAE6EDF00C3277F /* SCORConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B461DAE6EDF00C3277F /* SCORConfigurationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B471DAE6EDF00C3277F /* SCORContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B271DAE6EDF00C3277F /* SCORContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B481DAE6EDF00C3277F /* SCOREventInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B491DAE6EDF00C3277F /* SCORExtensionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4B1DAE6EDF00C3277F /* SCORLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B501DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B511DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B521DAE6EDF00C3277F /* SCORSessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B531DAE6EDF00C3277F /* SCORStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B541DAE6EDF00C3277F /* SCORStreamingAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B551DAE6EDF00C3277F /* SCORStreamingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B561DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B571DAE6EDF00C3277F /* SCORStreamingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B581DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B591DAE6EDF00C3277F /* SCORStreamingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5A1DAE6EDF00C3277F /* SCORTrackingProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5C1DAE6EDF00C3277F /* SCORVCE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5E1DAE6EFD00C3277F /* ComScore in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B5D1DAE6EFD00C3277F /* ComScore */; };
+		8CA80B601DAE6FB500C3277F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B5F1DAE6FB500C3277F /* libc++.tbd */; };
 		E672EA451D62E8FB00CFB080 /* ComScore.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA441D62E8FB00CFB080 /* ComScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E672EA491D62EEFA00CFB080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA481D62EEFA00CFB080 /* Foundation.framework */; };
 		E672EA4B1D62EF0200CFB080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4A1D62EF0100CFB080 /* UIKit.framework */; };
@@ -39,32 +49,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAdType.h; sourceTree = "<group>"; };
+		8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAnalytics.h; sourceTree = "<group>"; };
+		8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCORAnalytics+VCE.h"; sourceTree = "<group>"; };
+		8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationEvent.h; sourceTree = "<group>"; };
+		8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationState.h; sourceTree = "<group>"; };
+		8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfiguration.h; sourceTree = "<group>"; };
+		8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfiguration.h; sourceTree = "<group>"; };
+		8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationDelegate.h; sourceTree = "<group>"; };
+		8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationType.h; sourceTree = "<group>"; };
+		8CA80B271DAE6EDF00C3277F /* SCORContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORContentType.h; sourceTree = "<group>"; };
+		8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOREventInfo.h; sourceTree = "<group>"; };
+		8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORExtensionType.h; sourceTree = "<group>"; };
+		8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLiveTransmissionMode.h; sourceTree = "<group>"; };
+		8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLogLevel.h; sourceTree = "<group>"; };
+		8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOROfflineCacheMode.h; sourceTree = "<group>"; };
+		8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfiguration.h; sourceTree = "<group>"; };
+		8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfiguration.h; sourceTree = "<group>"; };
+		8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORReducedRequirementsStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORSessionState.h; sourceTree = "<group>"; };
+		8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAsset.h; sourceTree = "<group>"; };
+		8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfiguration.h; sourceTree = "<group>"; };
+		8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingDelegate.h; sourceTree = "<group>"; };
+		8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingPlaybackSession.h; sourceTree = "<group>"; };
+		8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingState.h; sourceTree = "<group>"; };
+		8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORTrackingProperty.h; sourceTree = "<group>"; };
+		8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORUsagePropertiesAutoUpdateMode.h; sourceTree = "<group>"; };
+		8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORVCE.h; sourceTree = "<group>"; };
+		8CA80B5D1DAE6EFD00C3277F /* ComScore */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ComScore; path = comScore/ComScore.framework/Versions/A/ComScore; sourceTree = "<group>"; };
+		8CA80B5F1DAE6FB500C3277F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		E672EA081D62E86D00CFB080 /* ComScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E672EA131D62E8D700CFB080 /* libcomScore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomScore.a; path = comScore/libcomScore.a; sourceTree = "<group>"; };
-		E672EA161D62E8EF00CFB080 /* CSApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSApplicationState.h; sourceTree = "<group>"; };
-		E672EA171D62E8EF00CFB080 /* CSCacheFlusher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCacheFlusher.h; sourceTree = "<group>"; };
-		E672EA181D62E8EF00CFB080 /* CSCensus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCensus.h; sourceTree = "<group>"; };
-		E672EA191D62E8EF00CFB080 /* CSComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSComScore.h; sourceTree = "<group>"; };
-		E672EA1A1D62E8EF00CFB080 /* CSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCore.h; sourceTree = "<group>"; };
-		E672EA1B1D62E8EF00CFB080 /* CSEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEventType.h; sourceTree = "<group>"; };
-		E672EA1C1D62E8EF00CFB080 /* CSKeepAlive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSKeepAlive.h; sourceTree = "<group>"; };
-		E672EA1D1D62E8EF00CFB080 /* CSMeasurementDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMeasurementDispatcher.h; sourceTree = "<group>"; };
-		E672EA1E1D62E8EF00CFB080 /* CSNotificationsObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNotificationsObserver.h; sourceTree = "<group>"; };
-		E672EA1F1D62E8EF00CFB080 /* CSOfflineCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSOfflineCache.h; sourceTree = "<group>"; };
-		E672EA201D62E8EF00CFB080 /* CSSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSessionState.h; sourceTree = "<group>"; };
-		E672EA211D62E8EF00CFB080 /* CSStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStorage.h; sourceTree = "<group>"; };
-		E672EA221D62E8EF00CFB080 /* CSStreamingTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamingTag.h; sourceTree = "<group>"; };
-		E672EA231D62E8EF00CFB080 /* CSStreamSense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSense.h; sourceTree = "<group>"; };
-		E672EA241D62E8EF00CFB080 /* CSStreamSenseClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSenseClip.h; sourceTree = "<group>"; };
-		E672EA251D62E8EF00CFB080 /* CSStreamSenseDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSenseDefines.h; sourceTree = "<group>"; };
-		E672EA261D62E8EF00CFB080 /* CSStreamSenseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSenseDelegate.h; sourceTree = "<group>"; };
-		E672EA271D62E8EF00CFB080 /* CSStreamSensePlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSensePlaylist.h; sourceTree = "<group>"; };
-		E672EA281D62E8EF00CFB080 /* CSStreamSensePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSensePlugin.h; sourceTree = "<group>"; };
-		E672EA291D62E8EF00CFB080 /* CSStreamSensePluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSensePluginProtocol.h; sourceTree = "<group>"; };
-		E672EA2A1D62E8EF00CFB080 /* CSStreamSenseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSStreamSenseState.h; sourceTree = "<group>"; };
-		E672EA2B1D62E8EF00CFB080 /* CSTaskExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTaskExecutor.h; sourceTree = "<group>"; };
-		E672EA2C1D62E8EF00CFB080 /* CSTransmissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTransmissionMode.h; sourceTree = "<group>"; };
-		E672EA441D62E8FB00CFB080 /* ComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComScore.h; path = comScore/ComScore.h; sourceTree = "<group>"; };
+		E672EA441D62E8FB00CFB080 /* ComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComScore.h; path = comScore/ComScore.framework/Versions/A/Headers/ComScore.h; sourceTree = "<group>"; };
 		E672EA481D62EEFA00CFB080 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E672EA4A1D62EF0100CFB080 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -76,11 +96,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA80B601DAE6FB500C3277F /* libc++.tbd in Frameworks */,
+				8CA80B5E1DAE6EFD00C3277F /* ComScore in Frameworks */,
 				E672EA4F1D62EF1A00CFB080 /* Security.framework in Frameworks */,
 				E672EA4D1D62EF0800CFB080 /* SystemConfiguration.framework in Frameworks */,
 				E672EA4B1D62EF0200CFB080 /* UIKit.framework in Frameworks */,
 				E672EA491D62EEFA00CFB080 /* Foundation.framework in Frameworks */,
-				E672EA141D62E8D700CFB080 /* libcomScore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +113,6 @@
 			children = (
 				E672EA151D62E8EF00CFB080 /* Headers */,
 				E672EA441D62E8FB00CFB080 /* ComScore.h */,
-				E672EA131D62E8D700CFB080 /* libcomScore.a */,
 				E672EA501D62EF2900CFB080 /* Frameworks */,
 				E672EA091D62E86D00CFB080 /* Products */,
 			);
@@ -109,37 +129,48 @@
 		E672EA151D62E8EF00CFB080 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				E672EA161D62E8EF00CFB080 /* CSApplicationState.h */,
-				E672EA171D62E8EF00CFB080 /* CSCacheFlusher.h */,
-				E672EA181D62E8EF00CFB080 /* CSCensus.h */,
-				E672EA191D62E8EF00CFB080 /* CSComScore.h */,
-				E672EA1A1D62E8EF00CFB080 /* CSCore.h */,
-				E672EA1B1D62E8EF00CFB080 /* CSEventType.h */,
-				E672EA1C1D62E8EF00CFB080 /* CSKeepAlive.h */,
-				E672EA1D1D62E8EF00CFB080 /* CSMeasurementDispatcher.h */,
-				E672EA1E1D62E8EF00CFB080 /* CSNotificationsObserver.h */,
-				E672EA1F1D62E8EF00CFB080 /* CSOfflineCache.h */,
-				E672EA201D62E8EF00CFB080 /* CSSessionState.h */,
-				E672EA211D62E8EF00CFB080 /* CSStorage.h */,
-				E672EA221D62E8EF00CFB080 /* CSStreamingTag.h */,
-				E672EA231D62E8EF00CFB080 /* CSStreamSense.h */,
-				E672EA241D62E8EF00CFB080 /* CSStreamSenseClip.h */,
-				E672EA251D62E8EF00CFB080 /* CSStreamSenseDefines.h */,
-				E672EA261D62E8EF00CFB080 /* CSStreamSenseDelegate.h */,
-				E672EA271D62E8EF00CFB080 /* CSStreamSensePlaylist.h */,
-				E672EA281D62E8EF00CFB080 /* CSStreamSensePlugin.h */,
-				E672EA291D62E8EF00CFB080 /* CSStreamSensePluginProtocol.h */,
-				E672EA2A1D62E8EF00CFB080 /* CSStreamSenseState.h */,
-				E672EA2B1D62E8EF00CFB080 /* CSTaskExecutor.h */,
-				E672EA2C1D62E8EF00CFB080 /* CSTransmissionMode.h */,
+				8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */,
+				8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */,
+				8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */,
+				8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */,
+				8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */,
+				8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */,
+				8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */,
+				8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */,
+				8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */,
+				8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */,
+				8CA80B271DAE6EDF00C3277F /* SCORContentType.h */,
+				8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */,
+				8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */,
+				8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */,
+				8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */,
+				8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */,
+				8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */,
+				8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */,
+				8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */,
+				8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */,
+				8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */,
+				8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */,
+				8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */,
+				8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */,
+				8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */,
+				8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */,
+				8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */,
+				8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */,
+				8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */,
+				8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */,
+				8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */,
+				8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */,
 			);
 			name = Headers;
-			path = comScore/headers;
+			path = comScore/ComScore.framework/Versions/A/Headers;
 			sourceTree = "<group>";
 		};
 		E672EA501D62EF2900CFB080 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CA80B5F1DAE6FB500C3277F /* libc++.tbd */,
+				8CA80B5D1DAE6EFD00C3277F /* ComScore */,
 				E672EA4E1D62EF1A00CFB080 /* Security.framework */,
 				E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */,
 				E672EA4A1D62EF0100CFB080 /* UIKit.framework */,
@@ -155,30 +186,39 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E672EA3D1D62E8EF00CFB080 /* CSStreamSenseDelegate.h in Headers */,
-				E672EA2D1D62E8EF00CFB080 /* CSApplicationState.h in Headers */,
-				E672EA2F1D62E8EF00CFB080 /* CSCensus.h in Headers */,
+				8CA80B521DAE6EDF00C3277F /* SCORSessionState.h in Headers */,
+				8CA80B571DAE6EDF00C3277F /* SCORStreamingDelegate.h in Headers */,
+				8CA80B3D1DAE6EDF00C3277F /* SCORAdType.h in Headers */,
+				8CA80B3F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h in Headers */,
+				8CA80B591DAE6EDF00C3277F /* SCORStreamingState.h in Headers */,
+				8CA80B3E1DAE6EDF00C3277F /* SCORAnalytics.h in Headers */,
+				8CA80B471DAE6EDF00C3277F /* SCORContentType.h in Headers */,
+				8CA80B5C1DAE6EDF00C3277F /* SCORVCE.h in Headers */,
 				E672EA451D62E8FB00CFB080 /* ComScore.h in Headers */,
-				E672EA3B1D62E8EF00CFB080 /* CSStreamSenseClip.h in Headers */,
-				E672EA401D62E8EF00CFB080 /* CSStreamSensePluginProtocol.h in Headers */,
-				E672EA341D62E8EF00CFB080 /* CSMeasurementDispatcher.h in Headers */,
-				E672EA421D62E8EF00CFB080 /* CSTaskExecutor.h in Headers */,
-				E672EA2E1D62E8EF00CFB080 /* CSCacheFlusher.h in Headers */,
-				E672EA381D62E8EF00CFB080 /* CSStorage.h in Headers */,
-				E672EA3F1D62E8EF00CFB080 /* CSStreamSensePlugin.h in Headers */,
-				E672EA331D62E8EF00CFB080 /* CSKeepAlive.h in Headers */,
-				E672EA321D62E8EF00CFB080 /* CSEventType.h in Headers */,
-				E672EA411D62E8EF00CFB080 /* CSStreamSenseState.h in Headers */,
-				E672EA3E1D62E8EF00CFB080 /* CSStreamSensePlaylist.h in Headers */,
-				E672EA431D62E8EF00CFB080 /* CSTransmissionMode.h in Headers */,
-				E672EA351D62E8EF00CFB080 /* CSNotificationsObserver.h in Headers */,
-				E672EA361D62E8EF00CFB080 /* CSOfflineCache.h in Headers */,
-				E672EA3C1D62E8EF00CFB080 /* CSStreamSenseDefines.h in Headers */,
-				E672EA391D62E8EF00CFB080 /* CSStreamingTag.h in Headers */,
-				E672EA371D62E8EF00CFB080 /* CSSessionState.h in Headers */,
-				E672EA3A1D62E8EF00CFB080 /* CSStreamSense.h in Headers */,
-				E672EA311D62E8EF00CFB080 /* CSCore.h in Headers */,
-				E672EA301D62E8EF00CFB080 /* CSComScore.h in Headers */,
+				8CA80B561DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h in Headers */,
+				8CA80B581DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h in Headers */,
+				8CA80B4B1DAE6EDF00C3277F /* SCORLogLevel.h in Headers */,
+				8CA80B5B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */,
+				8CA80B531DAE6EDF00C3277F /* SCORStreamingAnalytics.h in Headers */,
+				8CA80B421DAE6EDF00C3277F /* SCORClientConfiguration.h in Headers */,
+				8CA80B4C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h in Headers */,
+				8CA80B481DAE6EDF00C3277F /* SCOREventInfo.h in Headers */,
+				8CA80B451DAE6EDF00C3277F /* SCORConfigurationDelegate.h in Headers */,
+				8CA80B4E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h in Headers */,
+				8CA80B551DAE6EDF00C3277F /* SCORStreamingConfiguration.h in Headers */,
+				8CA80B4F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h in Headers */,
+				8CA80B4A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h in Headers */,
+				8CA80B501DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h in Headers */,
+				8CA80B411DAE6EDF00C3277F /* SCORApplicationState.h in Headers */,
+				8CA80B491DAE6EDF00C3277F /* SCORExtensionType.h in Headers */,
+				8CA80B431DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h in Headers */,
+				8CA80B461DAE6EDF00C3277F /* SCORConfigurationType.h in Headers */,
+				8CA80B511DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */,
+				8CA80B4D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h in Headers */,
+				8CA80B5A1DAE6EDF00C3277F /* SCORTrackingProperty.h in Headers */,
+				8CA80B401DAE6EDF00C3277F /* SCORApplicationEvent.h in Headers */,
+				8CA80B541DAE6EDF00C3277F /* SCORStreamingAsset.h in Headers */,
+				8CA80B441DAE6EDF00C3277F /* SCORConfiguration.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +398,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/comScore",
+					"$(PROJECT_DIR)/comScore/ComScore.framework/Versions/A",
 				);
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/ComScore.framework/module.map";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -379,7 +421,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/comScore",
+					"$(PROJECT_DIR)/comScore/ComScore.framework/Versions/A",
 				);
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/ComScore.framework/module.map";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
