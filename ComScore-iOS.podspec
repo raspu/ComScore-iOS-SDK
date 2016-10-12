@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore-iOS'
-  s.version          = '3.1607.27'
+  s.version          = '5.1.7.161004'
   s.summary          = 'Official Application and Streaming Tag library for iOS from comScore'
   s.description      = <<-DESC
   This library is used to collect application and streaming tagging data from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
@@ -12,13 +12,12 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/comScore'
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
-  s.public_header_files = 'comScore/**/*.h'
-  s.source_files = 'comScore/**/*.h', 'comScore/*.m'
-  s.preserve_paths = 'comScore/**/*.h'
-  s.vendored_libraries = 'comScore/libcomScore.a'
-  s.frameworks = 'SystemConfiguration', 'Security'
-  s.module_map = 'comScore/ComScore.modulemap'
-  s.header_dir = 'ComScore'
+  s.vendored_frameworks = 'comScore/ComScore.framework'
+  s.preserve_paths = 'comScore/ComScore.framework'
+  s.public_header_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
+  s.frameworks = "SystemConfiguration", "Security"
+  s.libraries = "c++"
   s.module_name = 'ComScore'
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  s.deprecated_in_favor_of = "ComScore"
+  s.deprecated = true
 end
