@@ -17,8 +17,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Installation
 ============
 
-The comScore Analytics SDK can be installed in several ways.
-
 CocoaPods
 ---------
 
