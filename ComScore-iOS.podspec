@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'comScore/ComScore.framework'
   s.preserve_paths = 'comScore/ComScore.framework'
   s.public_header_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
+  s.source_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
   s.frameworks = "SystemConfiguration", "Security"
   s.libraries = "c++"
   s.module_name = 'ComScore'
