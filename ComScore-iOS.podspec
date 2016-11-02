@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore-iOS'
-  s.version          = '5.1.7'
+  s.version          = '5.1.8'
   s.summary          = 'Official analytics library for iOS from comScore'
   s.description      = <<-DESC
   This library is used to collect analytics from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
