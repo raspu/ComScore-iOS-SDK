@@ -1,5 +1,5 @@
 PODS:
-  - ComScore-iOS (5.2.0)
+  - ComScore-iOS (5.3.0)
 
 DEPENDENCIES:
   - ComScore-iOS (from `../../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../../
 
 SPEC CHECKSUMS:
-  ComScore-iOS: d0d4769727f6fb3b4997081be808eeb1daa54c98
+  ComScore-iOS: eccc4a025d4a1cb48b3001da3c76ca22d49e2ba3
 
 PODFILE CHECKSUM: c878ec2958a06eb0c6b647bd5e29962ba000178a
 
