@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                          touch .pod
                       CMD
 
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'comScore/ComScore.framework'
   s.preserve_paths = 'comScore/ComScore.framework'
   s.public_header_files = 'comScore/ComScore.framework/Headers/*.h'
