@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.vendored_frameworks = 'comScore/ComScore.framework'
   s.preserve_paths = 'comScore/ComScore.framework'
-  s.public_header_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
-  s.source_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
+  s.public_header_files = 'comScore/ComScore.framework/Headers/*.h'
+  s.source_files = 'comScore/ComScore.framework/Headers/*.h'
   s.resource_bundle = { 'SCORBundle' => '.pod' }
   s.frameworks = "SystemConfiguration", "Security"
   s.libraries = "c++"
