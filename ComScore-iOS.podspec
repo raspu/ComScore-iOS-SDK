@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore-iOS'
-  s.version          = '5.4.1'
+  s.version          = '5.6.1b'
   s.summary          = 'Official analytics library for iOS from comScore'
   s.description      = <<-DESC
   This library is used to collect analytics from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
                          rm -rf ComScore/iOS/ComScore.framework/strip-framework.sh
                       CMD
 
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'comScore/ComScore.framework'
   s.preserve_paths = 'comScore/ComScore.framework'
-  s.public_header_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
-  s.source_files = 'comScore/ComScore.framework/Versions/A/Headers/*.h'
+  s.public_header_files = 'comScore/ComScore.framework/Headers/*.h'
+  s.source_files = 'comScore/ComScore.framework/Headers/*.h'
   s.resource_bundle = { 'SCORBundle' => '.pod' }
   s.frameworks = "SystemConfiguration", "Security"
   s.libraries = "c++"
